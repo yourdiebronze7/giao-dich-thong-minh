@@ -5,9 +5,9 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Endpoint khác
+// Transaction endpoint
 app.post('/transaction', (req, res) => {
-  // Xử lý giao dịch
+  // Process transaction
   res.send('Giao dịch đã được thực hiện!');
 });
 
