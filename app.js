@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Transaction endpoint
 app.post('/transaction', (req, res) => {
   // Process transaction
-  res.status(200).send('Transaction has been completed!');
+  res.status(200).send('Transaction completed successfully!');
 });
 
 module.exports = app;
