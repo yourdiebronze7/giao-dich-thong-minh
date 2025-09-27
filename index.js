@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Smart Trading!');
+  res.send('Welcome to Smart Trading App!');
 });
 
 app.listen(port, () => {
