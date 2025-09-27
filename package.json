@@ -1,6 +1,6 @@
 {
   "name": "giao-dich-thong-minh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dự án giao dịch tài chính thông minh dựa trên blockchain tại Việt Nam.",
   "main": "index.js",
   "scripts": {
