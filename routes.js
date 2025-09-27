@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-// Định nghĩa các route ở đây
+// Define routes here
 router.get('/transactions', (req, res) => {
-  res.send('Danh sách giao dịch');
+  res.send('Transaction list');
 });
 
 module.exports = router;
