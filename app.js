@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Transaction endpoint
 app.post('/transaction', (req, res) => {
   // Process transaction
-  res.send('Giao dịch đã được thực hiện!');
+  res.send('Transaction has been completed!');
 });
 
 module.exports = app;
