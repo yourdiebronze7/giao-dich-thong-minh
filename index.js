@@ -3,9 +3,9 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Giao Dịch Thông Minh!');
+  res.send('Welcome to Smart Trading!');
 });
 
 app.listen(port, () => {
-  console.log(`Server đang chạy ở http://localhost:${port}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
