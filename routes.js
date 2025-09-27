@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Define routes here
 router.get('/transactions', (req, res) => {
-  res.send('Transaction list');
+  res.send('List of all transactions');
 });
 
 module.exports = router;
